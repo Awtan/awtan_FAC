@@ -1,0 +1,126 @@
+/*Navigation bars*/
+	/*Top Bar*/
+		.top-bar
+		{
+			background-color: #206a5d;
+			height: 3rem;
+		}
+		.top-bar .top-bar-info .social , .top-bar .top-bar-info .mail-phone
+		{
+			color: #fff;
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			list-style: none ;
+		}
+		.top-bar .top-bar-info .mail-phone li i
+		{
+			margin: 1rem 1rem ;
+			color: #fff;
+			font-size: 20px ;
+		}
+
+		.top-bar .top-bar-info .social li i
+		{
+			color: #fff;
+			font-size: 20px ;
+			margin: 1rem 1rem ;
+
+		}
+		@media (max-width: 992px)
+		{
+			.top-bar
+			{
+				height: 6rem;
+			}
+			.top-bar .top-bar-info .social , .top-bar .top-bar-info .mail-phone
+			{
+				
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				margin: 0rem;
+				padding-left: 0px ; 
+			}
+		}
+	/*/Top Bar*/
+	/*Nvigation Bar*/
+	.navbar
+	{
+		background-color: #fff ;
+		padding: 0px ;
+		z-index: 1 ;
+	}
+	.navbar .navbar-brand
+	{
+		color: #206a5d;
+		font-weight: bolder ;
+		text-transform: uppercase;
+	}
+	.navbar .navbar-brand:hover
+	{
+		color: #206a5d;
+	}
+	.navbar .navbar-nav .nav-item .nav-link
+	{
+		color: #206a5d;
+		font-weight: bold ;
+	}
+	.navbar-dark .navbar-toggler
+	{
+		color: darkred !important;
+		font-size: 25px ;
+	}
+	.collapse .navbar-collapse
+	{
+		text-align: center;
+	}
+	@media (max-width: 992px)
+	{
+		header .navbar .navbar-brand
+		{
+			font-size: 13px ;
+			margin: 0px ;
+		}
+	}
+/*/Navigation Bars*/
+.about-text
+{
+	color: #206a5d ;
+	font-size: 20px ;
+}
+.container .arb-ul li
+{
+	list-style-type: none;
+	text-align: right;
+	color: darkred ;
+	font-size: 20px ;
+	font-weight: bold ;
+}
+.container .eng-ul li
+{
+	text-align: left;
+	color: darkred ;
+	font-size: 20px ;
+	font-weight: bold ;
+}
+.final-jum
+{
+    background-color: #222831;
+    color: #fff;
+    padding-top: .5rem ;
+    margin-right: 0px ;
+    margin-left: 0px ;
+}
+.final-jum .social i
+{
+	font-size: 18px ;
+	color: #fff;
+	padding: 1rem ;
+	border: 2px solid #206a5d ;
+	border-radius: 50% ;
+}
+.final-jum hr
+{
+	background-color: #206a5d
+}
